@@ -49,12 +49,10 @@ It is built with **Spring Boot (Java, MySQL)** for the backend and **React (Vite
 
 ### Frontend
 - React (Vite)
-- Axios
-- TailwindCSS (for styling, optional)
 
 ### Tools
 - VS Code (Frontend)
-- Eclipse/IntelliJ (Backend)
+- Eclips (Backend)
 - MySQL Workbench
 - GitHub for version control
 
