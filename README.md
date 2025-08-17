@@ -63,5 +63,21 @@ It is built with **Spring Boot (Java, MySQL)** for the backend and **React (Vite
 ## 📂 Project Structure
 
 ### Backend (`greencart-backend`)
-
+com.greencart.backend
+│
+├── BackendApplication.java
+│
+├── config # Security & CORS configuration
+├── controller # REST controllers (Drivers, Routes, Orders, Simulation)
+├── dto # Data Transfer Objects
+├── exception # Global exception handlers
+├── model # JPA entities
+├── repository # Spring Data JPA repositories
+├── service # Business logic & simulation service
+└── util # Helper utilities
 ### Frontend (`greencart-frontend`)
+│── api.js # Axios API configuration
+│── App.jsx # Main App with routing
+│── components # Login, Dashboard, Drivers, Routes, Orders, Simulation
+│── index.css # Global styles
+│── main.jsx # Entry point
